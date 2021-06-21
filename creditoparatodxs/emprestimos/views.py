@@ -5,3 +5,19 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("teste")
+
+
+def detalhes(request):
+    pass
+
+
+def contratos(request):
+    pass
+
+
+def contrato(request, id):
+    pass
+
+
+def editar_perfil(request):
+    pass
